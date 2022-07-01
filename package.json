@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "sponsorkit --dir ."
+  },
+	"dependencies": {
+		"sponsorkit": "^0.4.1"
+	}
+}
