@@ -2,6 +2,10 @@ import { defineConfig, presets } from 'sponsorkit'
 
 export default defineConfig({
   // Rendering configs
+  github: {
+    login: 'pdm-project',
+    type: 'organization',
+  },
   width: 800,
   formats: ['json', 'svg'],
   tiers: [

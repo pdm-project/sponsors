@@ -1,10 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
-  sponsorkit: ^0.4.1
+  sponsorkit: ^0.4.2
 
 dependencies:
-  sponsorkit: 0.4.1
+  sponsorkit: 0.4.2
 
 packages:
 
@@ -683,7 +683,7 @@ packages:
       destr: 1.1.1
       node-fetch-native: 0.1.4
       ufo: 0.8.4
-      undici: 5.5.1
+      undici: 5.6.0
     dev: false
 
   /once/1.4.0:
@@ -752,8 +752,8 @@ packages:
       tunnel-agent: 0.6.0
     dev: false
 
-  /psl/1.8.0:
-    resolution: {integrity: sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==}
+  /psl/1.9.0:
+    resolution: {integrity: sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==}
     dev: false
 
   /pump/3.0.0:
@@ -893,8 +893,8 @@ packages:
     resolution: {integrity: sha512-weHOi8BolsDnGIwhhWHbA+wKSuSpvWwjRrdj8SdbIIis2vSwOE37CQP8x3EleuzxanUr3AK8BdUy4MkiOULPZg==}
     dev: false
 
-  /sponsorkit/0.4.1:
-    resolution: {integrity: sha512-vFaispWT+WwYZHW13Bk0JjmINZWSShxwTZoWIrV0JR76sph3pAJv0ocBqy5dDFJj0IcnBB0h73M34DQhYgxxsA==}
+  /sponsorkit/0.4.2:
+    resolution: {integrity: sha512-vCYyOzFlmkjkMCwUvs7bkJglgu5Pq7lHBGVaaxVNVAEHXEfy2u7oRGBAyXa+4OvVgvuDC2ocUaY5O8XJYKTdSw==}
     hasBin: true
     dependencies:
       consola: 2.15.3
@@ -904,7 +904,7 @@ packages:
       ohmyfetch: 0.4.18
       picocolors: 1.0.0
       sharp: 0.30.7
-      unconfig: 0.3.4
+      unconfig: 0.3.5
       yargs: 17.5.1
     dev: false
 
@@ -1001,7 +1001,7 @@ packages:
     resolution: {integrity: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==}
     engines: {node: '>=0.8'}
     dependencies:
-      psl: 1.8.0
+      psl: 1.9.0
       punycode: 2.1.1
     dev: false
 
@@ -1023,16 +1023,16 @@ packages:
     resolution: {integrity: sha512-/+BmBDe8GvlB2nIflWasLLAInjYG0bC9HRnfEpNi4sw77J2AJNnEVnTDReVrehoh825+Q/evF3THXTAweyam2g==}
     dev: false
 
-  /unconfig/0.3.4:
-    resolution: {integrity: sha512-cf39F1brwQuLSuMLTYXOdWJH0O1CJee6a4QW1nYtO7SoBUfVvQCvEel6ssTNXtPfi17kop1ADmVtmC49NlFkIQ==}
+  /unconfig/0.3.5:
+    resolution: {integrity: sha512-YMnPPUSfW0pT4Zzy4inM8tRHJZmhH+KcuFW/3qxkLKPhswEw18gQYe1jt57jY6ctFB0fnpiCpQ2Jtkbg4y/IPA==}
     dependencies:
       '@antfu/utils': 0.5.2
       defu: 6.0.0
       jiti: 1.14.0
     dev: false
 
-  /undici/5.5.1:
-    resolution: {integrity: sha512-MEvryPLf18HvlCbLSzCW0U00IMftKGI5udnjrQbC5D4P0Hodwffhv+iGfWuJwg16Y/TK11ZFK8i+BPVW2z/eAw==}
+  /undici/5.6.0:
+    resolution: {integrity: sha512-mc+8SY1fXubTrdx4CXDkeFFGV8lI3Tq4I/70U1V8Z6g4iscGII0uLO7CPnDt56bXEbvaKwo2T2+VrteWbZiXiQ==}
     engines: {node: '>=12.18'}
     dev: false
 

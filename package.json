@@ -2,7 +2,7 @@
   "scripts": {
     "build": "sponsorkit --dir ."
   },
-	"dependencies": {
-		"sponsorkit": "^0.4.1"
-	}
+  "dependencies": {
+    "sponsorkit": "^0.4.2"
+  }
 }
