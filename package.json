@@ -3,6 +3,6 @@
     "build": "sponsorkit --dir ."
   },
   "dependencies": {
-    "sponsorkit": "^0.4.2"
+    "sponsorkit": "^0.8.5"
   }
 }
