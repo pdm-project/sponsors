@@ -1,4 +1,4 @@
-import { defineConfig, presets } from 'sponsorkit'
+import { defineConfig } from 'sponsorkit'
 
 export default defineConfig({
   // Rendering configs
@@ -6,27 +6,13 @@ export default defineConfig({
     login: 'pdm-project',
     type: 'organization',
   },
-  width: 800,
-  formats: ['json', 'svg'],
-  tiers: [
+  formats: ['svg'],
+  renders: [
     {
-      title: 'Backers',
-      preset: presets.base,
-    },
-    {
-      title: 'Sponsors',
-      monthlyDollars: 10,
-      preset: presets.medium,
-    },
-    {
-      title: 'Silver Sponsors',
-      monthlyDollars: 50,
-      preset: presets.large,
-    },
-    {
-      title: 'Gold Sponsors',
-      monthlyDollars: 100,
-      preset: presets.xl,
+      name: 'sponsors',
+      width: 1000,
+      includePastSponsors: true,
+      renderer: 'tiers'
     },
   ],
 })
